@@ -1,3 +1,19 @@
+v5.1.9.4 - 3-13-2023
+
+FORCECONTROL:
+added Auto Update capabilities
+added support for 401/301 Series 6 Platform
+renamed platform variants
+updated Profile Editor UI for a cleaner and more compact look
+added Texture effects to Profile Editor
+updated Servo Acceleration units to have the correct scale in Profile Editor
+updated Platform List UI
+updated Servo Logs to export as ZIP
+added Mech Warrior 5 Input Module
+added support for WRC Generation to KT Games Input Module
+updated LFS Input Module to support suspension data
+updated Universal Input Module to support suspension data
+
 v5.1.8.7 - 7-26-2022
 
 FORCECONTROL:
