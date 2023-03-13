@@ -1,1 +1,1019 @@
+v5.1.8.7 - 7-26-2022
 
+FORCECONTROL:
+added support for F1 2022 to Codemasters Input Module
+added support for Wreckfest v1.28 to Wreckfest Input Module
+angle washout filters correctly cancel when motion is stop requested
+
+v5.1.8.3 - 1-7-2022
+
+FORCECONTROL:
+updated Cyberpunk 2077 Input Module for 1.3 patch
+added support for Forza Horizon 5 to Forza Input Module
+added support for F1 2021 to Codemasters Input Module
+
+v5.1.8.2 - 11-30-2021
+
+FORCECONTROL:
+fixed MSFS2020 Input Module missing dll and added debug info
+added debug info to Universal Input Module
+
+
+v5.1.8.0 - 9-9-2021
+
+FORCECONTROL:
+update Forza Module with support for Forza Horizon 4 (Steam Version)
+
+v5.1.7.9 - 9-9-2021
+
+FORCECONTROL:
+update KT Engine Module with support for WRC10
+
+
+v5.1.7.8 - 8-31-2021
+
+FORCECONTROL:
+oculus hook rebuilt using latest visual studio runtime
+added automatic Network Throttling registry fixes to improve performance and reduce SYNC events
+updated to latest GCLIB (Galil Library)
+x86 platforms are no longer supported
+
+
+v5.1.7.2 - 11-6-2020
+
+FORCECONTROL:
+updated SimBin/Sector3/rFactor Input Module with support for rFactor Pro
+added 401 Series 1 NL Platform
+fixed delay when pressing green button in some situations
+added Auto Calibrate Rotations on Connect for 401 non-CR platforms
+
+
+v5.1.6.8 - 11-6-2020
+
+FORCECONTROL:
+updated KT Engine Input Module with support for TT Isle Of Man 2
+updated Spintires Input Module with support for latest Snowrunner update
+
+
+v5.1.6.7 - 10-20-2020
+
+FORCECONTROL:
+added RIDE Input Module (supports RIDE4)
+added Need For Speed Undergound 2 Input Module
+update Star Wars Input Module to support Star Wars: Battlefront Ultimate Edition
+
+
+v5.1.6.6 - 10-14-2020
+
+FORCECONTROL:
+fixed main form clipping on bottom
+
+TURNBOX:
+added new Firmware v9.0.0
+
+
+v5.1.6.6 - 9-24-2020
+
+FORCECONTROL:
+added 401 Series 1 IL platform
+increased encoder check move command
+
+v5.1.6.3 - 7-29-2020
+
+FORCECONTROL:
+fixed some random respawn events in iRacing Input Module, especially on oval tracks
+
+OCULUS HOOK:
+fixed support for v19 update
+
+
+v5.1.6.2 - 7-22-2020
+
+FORCECONTROL:
+added support for Nascar Heat 5 to Nascar Input Module
+added Speed Gear and RPM data to Nascar Input Module
+added Star Wars BattleFront Input Module
+fixed initial windows size on clean install
+
+OCULUS HOOK:
+fixed some hook issues with Rift S
+
+TURNBOX:
+added new Firmware
+FAN and ABS features now hidden for Standard TurnBox
+fixed a random crash when updating firmware
+
+
+v5.1.6.1 - 6-9-2020
+
+FORCECONTROL:
+added ability to forward udp packets and change listen port to Codemaster Input Module
+udpated some icons
+
+v5.1.6.0 - 2-26-2020
+
+FORCECONTROL:
+added Bluetooth and Remote status icons to toolstrip
+
+OCULUS HOOK:
+fixed a bug with v13.0
+
+v5.1.5.9 - 2-18-2020
+
+FORCECONTROL:
+updated application manifest to use System scaling mode by default
+updated Wreckfest Input module for more compatibility
+updated GTAV Input Module for more compatibility
+updated Codemasters Input Module for DIRT Rally 2.0 VR auto configuration
+added The Crew Input Module
+updated context menus for Platform List
+
+301/401:
+updated Control buttons icons and text
+updated Fault Status to use Display Names
+
+TURNBOX:
+fixed reported G27 button controls
+
+OCULUS HOOK:
+updated for Oculus App v13.0 and v14.0
+
+
+v5.1.5.6 - 12-12-2019
+
+OCULUS HOOK:
+fixed black screen bug
+
+v5.1.5.5 - 12-9-2019
+
+OCULUS HOOK:
+updated for 1.43 (12.0 PTC)
+added Guardian Bypass feature
+
+FORCECONTROL:
+updated Oculus options tab
+added Oculus Setup Guides
+minor UI fixes
+
+v5.1.5.3 - 11-1-2019
+
+FORCECONTROL:
+fixed some Remote Control bugs, added EQ support to PC remote control application
+added status and extra options for Remote Control
+updated Wreckfest Input Module for v1.25+
+fixed a RBR Input Module PacketTime bug
+fixed profile editor bugs when using Attract Mode and exception during X01 platform connect
+
+
+v5.1.5.2 - 10-14-2019
+
+FORCECONTROL:
+added support for ACLauncher to remote server
+fixed IsOnTrack bug with XPLANE Input Module
+changed RBR Input Module to use direct memory read instead of Plugin
+added Suspension data to Telemetry (supported modules: iRacing, Codemasters, KT Engine, Assetto Corsa, PCARS, RBR)
+
+X01:
+added new Suspension effects to Profile Editor
+
+TURNBOX:
+added new Firmware that fixes layered FFB effects with some games
+
+
+v5.1.5.1 - 9-20-2019
+
+FORCECONTROL:
+changed Bigben module name to KT Engine and added support for WRC 8
+added support for Nascar Heat 4 to NASCAR Input Module
+
+
+v5.1.5.0 - 8-15-2019
+
+OCULUS HOOK:
+fixed CV1 support for latest update
+added support for Oculus Rift S
+
+FORCECONTROL:
+added FIA European Truck Racing Championship support to Bigben Input Module
+changed EQ slider Large Change to 1
+
+X01:
+increased Decel for calibration
+calibration now uses live torque value instead of 4 frame average
+
+TURNBOX:
+added toggle checkbox to ABS and FAN scales
+fixed ABS bug with LFS in rallycross mode
+
+
+v5.1.4.3 - 5-14-2019
+
+FORCECONTROL:
+added KartKraft Input Module
+
+
+v5.1.4.2 - 5-13-2019
+
+FORCECONTROL:
+fixed period reference in Input Module Manager
+
+X01:
+fixed Watchdog for Series 1 machines
+
+v5.1.4.1 - 5-10-2019
+
+X01:
+simplified Network Connections to 2 sockets instead of 4
+added separate thread for Cueing only
+moved WatchDog and DataRecord back to main thread
+lowered priority for Input thread
+
+v5.1.4.0 - 5-9-2019
+
+FORCECONTROL:
+added Dynamic Upsampling Overhead Calculation for Telemetry
+updated Assetto Corsa Input Module to use correct PacketTime
+optimized Geometry libraries
+updated .NET framework platform to 4.7
+
+X01:
+improve Network performance and stability in Contour Mode
+added separate Thread for DataRecords
+added separate Thread for WatchDog
+DataRecords are now fixed at 16ms intervals
+fixed Threads/Process Priorities
+
+v5.1.3.2 - 4-16-2019
+
+FORCECONTROL:
+updated rFactor/SimBin/Sector3 Input Module for latest R3E data structure
+added new method to obtain reachable IP for Remote Broadcaster
+improved main window resize redraw performance
+
+X01:
+added Phase-Shifted De-Sync detection (less likely to trip false-positive Sync faults)
+fixed chart reset/zoom on Log Viewer
+
+TURNBOX:
+fixed X-Axis labels on Monitor page
+
+v5.1.3.1 - 4-12-2019
+
+FORCECONTROL:
+added Bluetooth Remote capabilities
+added 401 Series 1 Platform
+added 301 Series 4 Platform
+fixed GTAV Input Module for latest update
+fixed a memory leak in Profile Editor
+fixed a bug in Input Module Auto-Detect
+volume up/down actions now change volume in steps of 10%
+
+X01:
+fixed wrong number of EQ bands on initialization
+added EQ Enable checkbox (turning off enables standard smoothing filter)
+changed Process priority from Realtime to High (fixes framerate issues in some games)
+added extra 'Insert Shipping Block' steps to Settle procedure for machines without Limit Switches
+fixed some Calibration bugs for machines without limit switches
+
+
+v5.1.3.0 - 3-7-2019
+
+FORCECONTROL:
+optimized Auto Detect Input Module routine
+reduced update rate of some GUI elements
+Save Profile no longer refreshes elements
+fixed iRacing module sometimes not working
+updated to latest GCLIB library
+
+X01:
+added EQ filters to Accerelations
+Center state now moves to Geometry Heave Offset
+improved performance in some areas
+added Performance Chart to Debug page
+reduced update rate of GUI elemtents
+changed Watchdog to use different method onboard Galil
+Main Thread now uses Time Critical priority
+Foward Geometry output is now Synchronous
+
+TURNBOX:
+optimized data collection performance
+
+
+v5.1.2.4 - 1-22-2019
+
+FORCECONTROL:
+added Throttle/Brake/Clutch/ABS intruments to Telemetry Window
+added ability to select Speed units in Telemetry Window by Right-Clicking speed indicator
+fixed BeamNG auto script 
+further improved performance of Telemetry and Monitor charts
+
+TURNBOX:
+included new firmware update
+
+
+v5.1.2.3 - 1-18-2019
+
+FORCECONTROL:
+added Attract Input Module
+updated iRacing Input Module; Reset Car events now detected from LapDistPct delta; data is now processed on new packets only
+improved performance of Telemetry data gathering
+Input Module poller changed to MMTimer, now running at exactly 1000hz with lower CPU usage
+improved performance and fixed time-scaling of Telemetry Viewer chart
+updated Record button on Telemtry Viewer; now flashes while recording; confirms file save with dialog box
+exceptions in Platform Main Thread are now written to Platform Log instead of being ignored; repeat exceptions are only displayed once
+fixed profile editor preset text highlighted on initialize
+fixed height of HotKey editor labels
+
+401/301:
+added reduced Rotation Error Threshhold while in Attract Mode to prevent Injury
+improved performance of Parallel Tasks by removing priority change 
+improved performance of Servo/Cueing data gathering
+added right-click context menu to Motion ON/OFF button with shortcut to Motion On with Attract
+added HotKey for Motion On with Attract
+
+WAVE:
+improved performance of Servo/Cueing data gathering
+
+
+v5.1.2.2 - 10-29-2018
+added Farming Simulator Input Module
+added Colin McRae Rally 2.0 Input Module
+
+
+v5.1.2.1 - 10-29-2018
+
+FORCECONTROL:
+removed controls from FURIDASHI Input Module 
+
+401/301/WAVE:
+fixed bug that stopped Geometry Relay after reconnecting to Platform
+
+
+v5.1.2.0 - 10-29-2018
+
+FORCECONTROL:
+updated Dakar 18 Input Module for latest patch
+
+
+v5.1.1.9 - 10-24-2018
+
+FORCECONTROL:
+updated GoPro Player Input Module and added Basic Editor
+updated Telemetry Player Input Module
+fixed Overflow error when Telemetry PacketTime Delta was 0
+
+
+v5.1.1.8 - 10-15-2018
+
+FORCECONTROL:
+changed value labels to use autosize in Profile Editor
+application now requires Administrator Privileges
+now uses Windows Task Scheduler to automatically run at startup with required privileges
+
+401/301/WAVE:
+fixed bug unable to deactivate machine when using Orientation Rate Angles (flight profiles)
+
+TURNBOX:
+added Snap Points to TrackBar for Wheel Rotation Angle
+
+
+v5.1.1.8 - 10-15-2018
+
+FORCECONTROL:
+added Dakar 18 Input Module
+added V-Rally 4 support to WRC7 Input Module
+improved upsampling accuracy, added upsampling performance indicators to Telemety dialog
+child windows now hide automatically when main window is minimized
+profile save is now immediately written to disk
+
+WAVE:
+fixed WAVE Server UDP receive thread performance
+
+TURNBOX:
+added experimental SpeedFan and ABS pedal vibration support
+
+
+v5.1.1.6 - 9-17-2018
+
+FORCECONTROL:
+updated Assetto Corsa Input Module for Assetto Corsa Competizione
+
+v5.1.1.5 - 9-17-2018
+
+WAVE:
+changed Non-WAVE Input difference detection to use position delta instead of velocity delta to conform with WAVE specifications
+restored maximum Pitch/Roll Difference Threshold back to original value of 20 degrees
+
+v5.1.1.4 - 9-17-2018
+
+FORCECONTROL:
+added Need For Speed Porsche Input Module
+added Just Cause 3 Input Module
+
+401/301:
+added Velocity slider to Vertical Position Heave
+
+WAVE:
+added Velocity slider to Vertical Position Heave
+fixed respawn event/low acceleration triggering each time DAT position was updated
+increased maximum Pitch/Roll Difference Threshold from 20 degrees to 40 degrees
+
+v5.1.1.2 - 8-16-2018
+
+FORCECONTROL:
+fixed inverted/rough vertical Velocity and inverted Yaw/Pitch/Roll in Simbin Input Module
+added PacketTime to rFactor/rFactor2 Input Modules, supplied plugins updated
+
+401/301:
+fixed need to press Motion On/Off button twice after releasing belt while Parking
+added ability to toggle Simple Mode from Platform Actions
+
+WAVE:
+updated respawn/pause routine to match 301/401
+updated settings UI elements
+added ability to toggle Simple Mode from Platform Actions
+
+
+v5.1.1.1 - 8-15-2018
+
+FORCECONTROL:
+fixed inverted vertical acceleration for PCARS2 Input Module
+added GTAV Input Module
+fixed Monitor charts interacting with eachother when resetting zoom
+
+v5.1.1.0 - 8-14-2018
+
+OCULUS HOOK:
+new Main hook location seems to fix more of the sloppy movement
+added Gyro setting parameter 0.75 by default
+
+FORCECONTROL:
+added NFS Payback Input Module
+
+TURNBOX:
+new 8.3.0 firmware included
+
+
+v5.1.0.8 - 8-6-2018
+
+OCULUS HOOK:
+fixed sloppy rotation movement
+
+FORCECONTROL:
+fixed window positions resetting to top left corner
+fixed Exception behavior during load
+fixed Performance/Optimization for all Platforms
+
+
+v5.1.0.8 - 8-1-2018
+
+WAVE:
+updated remote protocol to use fixed packet lengths
+updated some status text during connect sequence
+fixed flickering tabs on settings page
+
+
+v5.1.0.6 - 7-23-2018
+
+OCULUS HOOK:
+added a few more traps for sharedmemory handles
+
+FORCECONTROL:
+changed HotKey API again back to the original GlobalKeyboardHook
+
+
+v5.1.0.5 - 7-18-2018
+
+OCULUS HOOK:
+updated for new patch
+
+FORCECONTROL:
+changed HotKey API again to GetAsyncKeyState (works in all cases in Administrator mode)
+
+
+v5.1.0.4 - 7-5-2018
+
+OCULUS HOOK:
+updated for new patch
+added more robust signature scanner
+changed to Enabled by default
+
+301/401:
+fixed some Respawn Detection bugs
+changed default Respawn Detection values
+changed Geometry Output to Enabled by default
+
+FORCECONTROL:
+added Wreckfest Input Module
+changed HotKey API from GlobalKeyboardHook to DirectInput for better compatibility (should now work while in Codemasters games)
+Telemetry Upsampling is now determined automatically (removed checkbox from LFS Input Module)
+
+TURNBOX:
+new v8 firmware included
+added G27 Mode
+added G27 Control Mapper in service page
+fixed some Firmware Updater bugs
+
+
+v5.1.0.0 - 5-11-2018
+
+FORCECONTROL:
+added FarCry5 Input Module
+added Spintires Input Module
+added Wangan Midnight 5 Input Module
+added Gravel Input Module
+added WRC7 Input Module
+
+
+v5.0.9.9 - 4-19-2018
+
+OCULUS HOOK:
+Updated for Oculus 1.25 update
+
+
+v5.0.9.8 - 4-12-2018
+
+FORCECONTROL:
+LFS module now saves Telemetry Upsampling checkbox state also the checkbox should now work correctly
+Fixed a spelling mistake on removing platform dialog
+
+401/301:
+Improved network performance, 7ms (142.8hz) network rate now stable and no longer experimental
+Improved servo performance, Velocity Feedforward now enabled by default
+Changed default position respawn detect speed from 500m/s to 1000m/s
+Added group boxes to all settings pages
+Setting page tabs no longer flicker on mouseover
+
+v5.0.9.7 - 4-3-2018
+
+FORCECONTROL:
+updated Microsoft Flight Simulator Input Module to use Telemetry Upsampling
+updated X-Plane Input Module to use Telemetry Upsampling
+
+v5.0.9.6 - 3-19-2018
+
+FORCECONTROL:
+added WarThunder Input Module
+
+
+v5.0.9.5 - 3-9-2018
+
+FORCECONTROL:
+bug fixes to Forza Motorsport 7 Input Module
+MessageBox now correctly appears during uninstall
+layout fixes to Debug pages
+fixed Aerofly FS2 plugin not included in installer
+
+401/301:
+fixed Telemetry reset on Cueing Init
+added 401IL platform for those with Limited Rotation and Inverted Limit switches
+
+TURNBOX:
+included firmware update 7.0.2 (see TURNBOX-changelog.txt for details)
+
+v5.0.9.4 - 3-5-2018
+
+FORCECONTROL:
+added Design it, Drive it, Speedboats Input Module
+added Aerofly FS2 Input Module
+
+401/301:
+respawn detection now using velocity instead of delta
+added voice notifications for error,sync,jam,clear faults when motion button pressed with fault
+removed unused telemetry data logging
+fixed watchdog bug introduced in v5092
+
+
+v5.0.9.3 - 2-13-2018
+
+FORCECONTROL:
+fixed profile editor resizing and drag scrolling
+updated BeamNG.drive support for latest version (0.11.*), now using Telemetry Upsampling
+updated DCS plugin installer for 2.5 open beta, now using Telemetry Upsampling
+updated Truck Simulator module, now using Telemetry Upsampling
+
+401/301/WAVE:
+fixed terminal list not updating
+
+
+v5.0.9.2 - 2-12-2018
+
+FORCECONTROL:
+resizing main window is now faster
+profile editor UI improvements
+
+401/301:
+watchdog data now sent along with contour data while active to improve performance
+
+
+v5.0.9.1 - 1-26-2018
+
+FORCECONTROL:
+profile editor now saves profile when pressing enter in combobox
+added Need For Speed SE Input Module
+added Star Citizen Input Module
+added Forza Motorsport 7 support to Forza Motorsport Input Module
+removed setup.exe and dependencies from installer (temporarily?)
+
+401/301:
+tuned softstops
+
+TURNBOX:
+added Dynamic Damping
+included Firmware update v7.0.0
+
+
+v5.0.9.0 - 12-5-2017
+
+FORCECONTROL:
+hotkeys are no longer blocked from other programs
+fixed LFS Input Module issues
+fixed iRacing Input module; Vertical Acceleration was inverted
+updated Richard Burns Rally Input module to use Telemetry Upsampling (must also use updated plugin dll)
+fixed error when copying text from status log
+fixed orientation scaling on Telemetry chart
+changelog order reversed
+oculus positional stiffness default changed to 3.5
+
+401/301:
+increased Torque Calibration to 4 passes
+removed contour mode pre-load
+Geometry Output mode set to Shared Memory by default
+fixed erroneous DataRecord fault on connect
+added support for older Non-CR 401's with tether (Standard 401 platform)
+fixed rotation bug when using yaw scale below 1.0
+fixed rotation bug that caused a small movement when going on/off track
+added Log message when going On-Track
+
+TURNBOX:
+Torque Ripple Calibration on Startup now enabled by default
+removed Torque Telemetry option
+included Firmware update with new button debounce feature
+
+
+v5.0.8.5 - 10-25-2017
+
+FORCECONTROL:
+fixed bug that cause Remote Control to fail
+profile item values now clamp to limits
+
+
+v5.0.8.4 - 10-13-2017
+
+OCULUS HOOK:
+fixed a bug that was causing some shaking
+implemented upsampling and removed geometry filter
+
+301/401/WAVE:
+fixed Geometry Parallel Processing bug
+
+
+v5.0.8.3 - 10-11-2017
+
+FORCECONTROL:
+added Telemetry Upsampling (much smoother and sharper data) to following Input Modules:
+
+iRacing
+Assetto Corsa
+LFS 
+Simbin/rFactor/Sector3
+Codemasters
+Project CARS
+
+WAVE:
+optimized parallel processing in main loop
+added Encoder-based geometry output
+changed some static classes to non-static
+
+401/301:
+optimized parallel processing in main loop
+added Encoder-based geometry output
+halfed Default GT Car servo accel/decel
+halfed Default F1 Car servo accel/decel
+
+
+v5.0.8.0 - 9-11-2017
+
+WAVE:
+fixed POS output to derive from Encoder positions
+removed extra default profiles
+
+401/301:
+added velocity slider to most effects
+fixed yaw velocity filter
+fixed Sync errors when pressing Motion On/Off button
+
+
+v5.0.7.9 - 8-22-2017
+
+WAVE:
+fixed difference detect
+fixed heave clamp detect scaling
+fixed Remote server settings save
+
+
+v5.0.7.8 - 8-22-2017
+
+301/401:
+fixed Invert EStop checkbox
+fixed AutoResync checkbox and threshold not saving
+fixed AutoResync smoothness
+
+
+v5.0.7.7 - 8-15-2017
+
+ForceControl:
+fixed Accleration/Deceleration frequency scaling on Trajectory filters
+
+301/401:
+fixed Network Rate labeling
+increased maximum linear servo Acceleration/Deceleration from 1500 in/sec2 to 3500 in/sec2
+increased maximum rotation servo Acceleration/Deceleration from 9200 deg/sec2 to 21500 deg/sec2
+increased Acceleration/Deceleration for all default profiles
+
+Oculus Rift Hook:
+fixed support for Oculus 1.17
+
+
+v5.0.7.6 - 8-10-2017
+
+ForceControl:
+added HotKeys Enabled checkbox to options dialog
+Input Module poll rate decreased from 10ms to 8ms
+
+301/401:
+smoothing filters updated to use correct frequency
+added park/center smooth transitions
+park/center sequences now complete only when position is reached
+fixed calibration move range
+added a third pass to Settle Strut Servos
+fixed a safety issue that allowed user to bypass a Cold Start Calibration by pressing motion button twice in rapid succession
+fixed fast move during Cold Start Calibration
+added Geometry Output reinitialization if there was an error trying to write data to UDP or SharedMemory (caused Oculus Compensation to not function sometimes)
+added Geometry Velocity for each DOF in profile editor
+increased maximum washout rate for Vertical Rate Heave
+fixed Smoothing filter limits for Pitch/Roll
+fixed bug with Motion On/Off actions
+Sessions now update in realtime
+fixed Servo Tuning showing blank if last item was selected
+improved default Servo Tuning and reordered items
+fixed Servo Instrumentation chunkiness
+moved Safety tab to the right of Logic tab on settings page
+increased speed of all Logic sequences
+optimized performance and added Experimental 8ms/125hz contour mode
+
+
+WAVE:
+fixed some Wave Server Commands
+removed Servo Tuning from settings page
+fixed Network Rate selections
+
+
+v5.0.7.5
+
+WAVE:
+updates to remote server command and response
+fixed geometry models
+changed enable behavior to idle instead of automatic park
+added Load state
+added calibration dialog when clicking enable
+set default timeouts to 30min
+added Vertical Heave Position (heave input), Difference Thresholds and Load Position to profile
+several changes to telemetry to allow use of input manager when wave server is disabled
+
+
+v5.0.7.3
+
+Oculus Rift Hook:
+fixed support for Oculus 1.15
+
+301/401:
+added torque offset calibration, improves performance and stablility, calibrate from Service page
+
+WAVE:
+added Wave and Virtual Wave platforms
+
+
+v5.0.7.2 - 4-28-2017
+
+ForceControl:
+added Tactile effect when taking damage in EVE Valkyrie, also tuned launch sequence
+added ability to view Velocity and Orientation data with Telemetry Chart
+
+
+v5.0.7.1 - 4-27-2017
+
+401/301:
+added Velocity Limiter for Longitudinal Acceleration
+fixed Limits for Lateral/Longitudinal Acceleration
+
+
+v5.0.7.0 - 4-26-2017
+
+Oculus Rift Hook:
+fixed some problems with hook enabling
+status now updates when you press Apply in Options dialog
+
+ForceControl:
+updated EVE Valkyrie Input Module (fixed inverted heave, fixed accelerations in launch tunnel, added smoothing filter when exiting launch tunnel)
+profile editor layout changed slightly
+renamed some namespaces in PlatformCommon so older DLL's may not be compatible with this build
+
+
+v5.0.6.9 - 4-13-2017
+
+ForceControl:
+updated preffered presets, preset hotkeys, and preset import/export dialogs to use OK/Cancel instead of Close and added some macro buttons
+added Standard 301IL platform variant for 301's with inverted limits.
+
+
+v5.0.6.8 - 4-7-2017
+
+ForceControl:
+fixed support for Sector3's RaceRoom Experience
+
+
+v5.0.6.7 - 3-23-2017
+
+TurnBox:
+fixed Force Scale trackbar, 100% is actually 100% 
+fixed Telemetry Torque checkbox and trackbar not saving
+fixed Monitor trackbar under Pause button
+fixed firmware updater hard lock
+Settings and Profile now sent to device on connect
+reset device now correctly displays Disconnected
+reconnect after reset is faster
+turnbox firmware 6.5.0 update included
+
+ForceControl:
+fixed bug with profile Save/Load
+added ability to assign HotKeys to Presets (bottom right corner Profile Editor click Presets>HotKeys...)
+added Toolbar, can be toggled from View menu
+added Actions menu, perform common group actions
+renamed Settings to Options (to not confuse with Platform Settings)
+
+301/401:
+fixed bug with ServoTuning combobox
+moved Setting 'Encoder Check on Enable' from Logic to Safety tab
+
+
+v5.0.6.6 - 3-13-2017
+
+Oculus Rift Hook:
+updated core dll, supports 1.12
+fixed problem ForceControl started before HMD is in sight of Tracking Camera
+
+TurnBox:
+turnbox firmware 6.4.0 update included
+
+401/301:
+added Servo Tuning to settings page (Very Loose, Loose, Normal)
+
+ForceControl:
+fixed HotKeys blocked in other programs
+
+
+v5.0.6.5 - 3-6-2017
+
+HotKeys now using Low-Level hook
+HotKeys now correctly saved
+added Clear Faults HotKey
+fixed Motion On and Motion Off HotKeys
+fixed crash bugs when opening Settings dialog
+
+
+v5.0.6.3 - 2-28-2017
+
+TurnBox:
+added buzz on torque clipping feature
+added Telemetry Torque feature
+turnbox firmware 6.1.0 update included
+
+
+v5.0.6.2 - 12-22-2016
+
+ForceControlRemote:
+added ability to control All Host and All Platforms simultaneously
+
+401/301:
+added LogViewer to debug page
+
+TurnBox:
+changed default setting for torque smoothing from 50 to 0
+changed default setting for torque limiter to disabled
+added Torque Ripple compensation
+turnbox firmware update included
+
+Oculus Rift Hook:
+update core dll for newest oculus update
+
+
+v5.0.6.1 - 12-21-2016
+
+Oculus Rift Hook:
+updated core dll with higher precision rotation math, better default configuration parameters, less dependencies
+added several configuration options in ForceControl settings dialog
+added ability to disable without restarting service, also now disabled by default
+
+
+v5.0.6.0 - 12-6-2016
+
+installer Launch ForceControl option disabled by default
+fixed uninstaller delete settings used old path
+added built-in Oculus Rift compensation Hook
+
+401/301:
+added Integral for Roll and Yaw to Cueing Monitor
+fixed Globalization bugs with logs
+changed log filename timestamp for something more readable
+changed log delimiter from , to ;
+removed Configuration and Parameters from Servo Log
+fixed Velocity and Trajectory filter frequencies when changing Network rate
+fixed Charts scale when Calibration is applied
+added Sessions page
+re-ordered pages
+fixed Yaw Angle Yaw scale
+
+
+v5.0.6.0 - 11-11-2016
+
+fixed Encoder Check, Invert E-Stop, and Thermal Protection checkbox functionality for 401/301
+added timeout for Encoder Check
+added program instance detection
+fixed Presets dropdown always being highlighted
+fixed firmware update abort for TURNBOX
+updated TURNBOX firmware
+
+
+v5.0.5.8 - 11-9-2016
+
+jam detection now disabled during calibration
+added setting to disable encoder check
+added feature Auto Reconnect on Timeout
+updated Codemasters Module XML Auto Configuration for latest DIRT Rally Patch
+added experimental Auto ReSync setting for 401/301
+added Bypass Encoder Check setting for 401/301
+added ability to Clear Faults when holding Green (Motion On/Off) button for 5 seconds
+added Reset Window Positions in Windows menu
+removed RC Relay from Turnbox Settings
+moved Settings folder from ApplicationData (Current User) to CommonApplicationData (All Users); migration is performed Automatically on first run
+added ability to import/export profile presets
+fixed Amp Powered Duration Statistic not stopping on Disable
+tried to solve more save/load issues
+fixed simplemode smoothing slider default position for 401/301
+added ability to change network rate frequency for Contour Mode and Data Records 
+moved Respawn detection controls from Settings page to profile for 401/301
+fixed motion stopping when using zero integral washout on Pitch/Roll/Yaw Rate effects and IsOnTrack flag was unset
+added REDOUT input module to installer also module was updated for latest patch
+added Default profile for Pod Racer for 401/301, specifically for use with REDOUT
+fixed TURNBOX oscillations on with new firmware (new TURNBOX firmware included in install directory)
+
+
+v5.0.5.7 - 10-5-2016
+
+fixed servo configuration not applying for 301 Series
+fixed Globalization issue where , is used as fraction instead of . causing connection errors
+changed counts per inch from 7700 to 8500 for 301 Series 1
+added Invert E-Stop State for 401/301
+
+
+v5.0.5.6 - 9-26-2016
+
+reduced default smoothing for Vertical Rate Heave from 0.8 to 0.6
+installer now works correctly on 32 bit systems
+MSVC libraries now installed as local libraries
+changed counts per inch from 10000 to 7700 for 301 Series 1
+network connect sequence now sends two carriage returns after connect to clear garbage data 401/301
+increased threshhold for IsMovingAdvanced from 0 counts to 10 counts for 401/301
+application now starts with high priority, solves some sync issues
+tried to solve saved platforms not saving/loading
+
+
+v5.0.5.5 - 9-8-2016
+
+fixed orientation respawn detect to use orientation delta Maximum instead of Average and increased default orientation delta limit 
+some minor fixes for iRacing plugin module
+updated default presets for 401/301 (reduced rotation servo accelerations from 6000 to 5000)
+increased error threshhold from 20000 to 40000 counts for 401 rotation servo
+moved company link above description in About window
+changed profile editor item maximum width to 800 pixels
+changed profile editor page minimum width to 650
+added dopdown menu to profile editor (to access preffered presets and future feature additions)
+fixed poll rate for Virtual301
+fixed default controller address for Virtual301
+profile, settings, and service rotation items are now hidden for platforms without rotation capabilities (301)
+added/fixed plugin installer for rFactor 1/2 
+added plugin installer for BeamNG
+added plugin installer for KartRacingPro and WorldRacingSeries
+added highest temperature statistic for 301/401
+fixed Browse dialog freeze on refresh for 401/301
+added possibility to double-click or press enter on address to Select in Browse dialog for 401/301
+network error information now displayed in log for 401/301
+added platform type to platform description
+platforms now sorted by platform type in add platform dialog
+fault events now displayed in log including extra data (such as what servo caused the fault) for 401/301
+added 2 inches nose tolerance to 301 Series 1 due to different speaker cover design
+module auto-detect window searcher now using EnumWindows for better performance
+module auto-detect window searcher update interval increased from 1 second to 5 seconds
+many other performance optimizations (significantly reduced CPU usage)
+updated rFactor/SimBin module to reflect missing orientation data in GTL, GTR, GTR2
